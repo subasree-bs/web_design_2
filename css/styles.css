@@ -37,7 +37,7 @@ body{
 }
 .msghead{
     display: flex !important;
-    gap: 25px;
+    gap: 45px;
   
   }
 .e1{
@@ -80,16 +80,38 @@ body{
     font-size: 14px;
 }
 
+@media only screen and (max-width: 680px) {
+    .card{
+        width: 180px !important;
+    }
+}
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 767px) {
     .boxes1{
     padding-top: 20px !important;
-    padding-right:120px !important;
-}
+    padding-right:30px !important;
+    padding-left: 30px !important;
+
+    }
     .boxes2{
     padding-top: 20px !important;
-    padding-left: 120px !important;
-}
+    padding-right:50px !important;
+    padding-left: 20px !important;
+    }
+    .card_1{
+        padding-top: 45px !important;
+        padding-left: 65px !important;
+        /* padding-right: 45px !important; */
+    }
+    .card_2{
+        padding-top: 45px !important;
+        /* padding-left: 45px !important; */
+        padding-right: 45px !important;
+    }
+    .card{
+        width: 280px;
+    }
+
 }
 @media only screen and (max-width: 420px) {
     .boxes1{
@@ -98,4 +120,30 @@ body{
     .boxes2{
         padding: 39px !important;
 }
+}
+@media only screen and (max-width: 1115px) {
+
+
+    .msghead{
+        gap:10px;
+    }
+    .num,.title{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 1095px) {
+    .boxes1{
+        padding-left: 80px !important; 
+    }
+    .boxes2{
+        padding-right: 80px !important;
+    }
+}
+@media only screen and (max-width: 1095px) {
+    .boxes1{
+        padding-left: 20px !important; 
+    }
+    .boxes2{
+        padding-right: 20px !important;
+    }
 }
